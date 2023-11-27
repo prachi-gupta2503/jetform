@@ -1,0 +1,7 @@
+dependencies {
+	
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+	
+	// Form adapter
+	compileOnly group: "com.liferay", name: "com.liferay.dynamic.data.mapping.api", version: "7.3.1"
+}

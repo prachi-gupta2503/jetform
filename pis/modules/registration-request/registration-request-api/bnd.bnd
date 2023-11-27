@@ -1,0 +1,24 @@
+Bundle-Name: registration-request-api
+Bundle-SymbolicName: com.adjecti.pis.api
+Bundle-Version: 1.0.0
+Export-Package: \
+	com.adjecti.pis.exception,\
+	com.adjecti.pis.model,\
+	com.adjecti.pis.service,\
+	com.adjecti.pis.service.persistence,\
+	com.adjecti.pis.util,\
+	com.adjecti.pis.dto,\
+	com.adjecti.pis.constant,\
+	com.adjecti.pis.workflow,\
+	com.adjecti.pis.configuration
+
+Import-Package: *; version="0";resolution:=optional
+
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../registration-request-service/service.xml,\
+lib/httpclient.jar=httpclient-4.5.5.jar,\
+lib/httpcore.jar=httpcore-4.4.9.jar
+
+Bundle-ClassPath:.,\
+  lib/httpclient.jar,\
+  lib/httpcore.jar

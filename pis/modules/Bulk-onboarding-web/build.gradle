@@ -1,0 +1,15 @@
+dependencies {
+
+	
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+	compileOnly project(":modules:excel-util")
+	
+	compile project(":modules:jetform-core")
+	compile project(":modules:jetform-liferay:jetform-liferay-api")
+	compileOnly project(":modules:registration-request:registration-request-api")
+	
+	compile group: "biz.aQute.bnd", name: "biz.aQute.bndlib", version: "3.1.0"
+	compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations"
+	compileOnly "com.liferay:com.liferay.portal.configuration.metatype.api"
+	compile group: "org.apache.commons", name: "commons-csv", version: "1.5"
+}

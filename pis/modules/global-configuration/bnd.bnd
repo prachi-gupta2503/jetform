@@ -1,0 +1,4 @@
+Bundle-Name: global-configuration
+Bundle-SymbolicName: net.ayudh.configuration.global
+Bundle-Version: 1.0.0
+Export-Package: net.ayudh.configuration.global.api

@@ -1,0 +1,19 @@
+.row-action{
+	margin:0px 5px 0px 5px;
+}
+
+.row-action-delete i{
+	color: red !important;
+}
+
+.other-info-accordion .nav-pills > li > a{
+	color: #0b5fff !important;
+}
+
+.other-info-accordion .nav-pills > li > a.active{
+	color: #fff !important;
+}
+
+table.dataTable th{
+	font-weight: 600 !important;
+}

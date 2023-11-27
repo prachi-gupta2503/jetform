@@ -1,0 +1,4 @@
+Bundle-Name: dashboard-pis
+Bundle-SymbolicName: net.ofb.comnet2.dashboard.pis
+Bundle-Version: 1.0.0
+Export-Package: net.ofb.comnet2.dashboard.pis.constants

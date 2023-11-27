@@ -1,0 +1,19 @@
+Bundle-Name: master-data-taglib
+Bundle-SymbolicName: com.adjecti.mdm
+Bundle-Version: 1.0.0
+Export-Package: com.adjecti.mdm.constants
+
+Import-Package: *; version="0";resolution:=optional
+
+
+Provide-Capability:\
+    osgi.extender;\
+        osgi.extender="jsp.taglib";\
+        uri="adjecti";\
+        version:Version="${Bundle-Version}"
+       
+       Require-Capability:\
+    osgi.extender;\
+        filter:="(&(osgi.extender=jsp.taglib)(uri=adjecti))"
+        
+        

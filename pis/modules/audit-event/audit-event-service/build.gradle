@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:audit-event:audit-event-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../audit-event-api/src/main/java"
+}
+
+group = "net.ayudh.audit"

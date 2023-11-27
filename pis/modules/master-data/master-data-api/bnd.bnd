@@ -1,0 +1,23 @@
+Bundle-Name: master-data-api
+Bundle-SymbolicName: com.adjecti.mdm.liferay.api
+Bundle-Version: 1.0.0
+Export-Package: \
+	com.adjecti.mdm.liferay.exception,\
+	com.adjecti.mdm.liferay.model,\
+	com.adjecti.mdm.liferay.service,\
+	com.adjecti.mdm.liferay.service.persistence,\
+	com.adjecti.mdm.liferay.enumeration.model,\
+	com.adjecti.mdm.liferay.enumeration,\
+	com.adjecti.mdm.liferay.util,\
+	com.adjecti.mdm.liferay.dto,\
+	com.adjecti.mdm.liferay.constants
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../master-data-service/service.xml,\
+lib/httpcore.jar=httpcore-4.4.9.jar,\
+lib/httpclient.jar=httpclient-4.5.5.jar,\
+lib/commons-codec.jar=commons-codec-1.13.jar
+
+Bundle-ClassPath:.,\
+  lib/httpcore.jar,\
+  lib/httpclient.jar,\
+  lib/commons-codec.jar

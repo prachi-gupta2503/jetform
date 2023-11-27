@@ -1,0 +1,23 @@
+Bundle-Name: excel-util
+Bundle-SymbolicName: com.adj.xls.util
+Bundle-Version: 1.0.0
+Export-Package: com.adj.xls.util,\
+com.adj.xls.annotation,\
+com.adj.xls.bind,\
+com.adj.xls.bind.mapping,\
+com.adj.xls.config,\
+com.adj.xls.exception,\
+com.adj.xls.option,\
+com.adj.xls.parser
+Import-Package: *; version="0";resolution:=optional
+
+#org.apache.commons.math3.*,\
+
+
+Include-Resource:\
+    @poi-4.1.2.jar, \
+    @poi-ooxml-4.1.2.jar, \
+    @poi-ooxml-schemas-4.1.2.jar, \
+    @xmlbeans-3.1.0.jar,\
+    @commons-math3-3.6.1.jar, \
+    @commons-compress-1.19.jar

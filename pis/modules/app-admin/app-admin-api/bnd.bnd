@@ -1,0 +1,10 @@
+Bundle-Name: app-admin-api
+Bundle-SymbolicName: net.ayudh.comnet.admin.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	net.ayudh.comnet.admin.exception,\
+	net.ayudh.comnet.admin.model,\
+	net.ayudh.comnet.admin.service,\
+	net.ayudh.comnet.admin.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../app-admin-service/service.xml

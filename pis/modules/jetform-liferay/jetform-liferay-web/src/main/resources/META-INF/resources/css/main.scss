@@ -1,0 +1,33 @@
+.jetform-liferay-web {
+}
+
+.search-field-group {
+    margin-bottom: 0.5rem !important;
+}
+
+.search-field-button-group {
+    margin-top: 1.5rem !important;
+    margin-bottom: 0rem !important;
+}
+
+.dataTables_info{
+	padding-left:15px !important;
+}
+
+.dataTables_paginate{
+	padding-right:15px !important;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: #f1f2f5 !important;
+    border: 1px solid #e7e7ed !important;
+    height: 2.5rem !important;
+}
+
+.select2-selection--single .select2-selection__rendered,
+.select2-selection--single .select2-selection__rendered .select2-selection__placeholder,
+.select2-results .select2-results__options .select2-results__option {
+	font-size: 16px !important;
+	margin-top: 5px !important;
+	padding-left: 8px !important;
+}

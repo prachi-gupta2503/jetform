@@ -1,0 +1,8 @@
+Bundle-Name: audit-fragment
+Bundle-SymbolicName: audit.fragment
+Bundle-Version: 1.0.0
+Fragment-Host: com.liferay.portal.security.audit.web;bundle-version="4.0.12"
+
+Import-Package: !com.liferay.portal.security.audit.web.*,*
+Export-Package: com.liferay.portal.security.audit.web.*,\
+				com.liferay.portal.security.audit.web.internal,

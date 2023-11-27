@@ -1,0 +1,1119 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.adjecti.pis.liferay.model.Address">
+		<field name="addressId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="addressTypeId" type="int" />
+		<field name="addressLine1" type="String" />
+		<field name="addressLine2" type="String" />
+		<field name="addressLine3" type="String" />
+		<field name="city" type="String" />
+		<field name="pinCode" type="String" />
+		<field name="countryId" type="long" />
+		<field name="stateId" type="long" />
+		<field name="accomodationTypeId" type="long" />
+		<field name="districtId" type="long" />
+		<field name="joiningProcessId" type="long" />
+		<field name="addressProofId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.Contact">
+		<field name="contactId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="altEmailAddress" type="String" />
+		<field name="emergencyMobile" type="String" />
+		<field name="facebookId" type="String" />
+		<field name="instagramId" type="String" />
+		<field name="linkedInId" type="String" />
+		<field name="mobile" type="String" />
+		<field name="phone" type="String" />
+		<field name="twitterId" type="String" />
+		<field name="landline" type="String" />
+		<field name="emergencyNo" type="String" />
+		<field name="fax" type="String" />
+		<field name="telegram" type="String" />
+		<field name="telex" type="String" />
+		<field name="personalEmail" type="String" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.Employee">
+		<field name="uuid" type="String" />
+		<field name="employeeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="status" type="int" />
+		<field name="statusByUserId" type="long" />
+		<field name="statusByUserName" type="String" />
+		<field name="statusDate" type="Date" />
+		<field name="state" type="String" />
+		<field name="personalNo" type="String" />
+		<field name="peopleId" type="long" />
+		<field name="emailId" type="String" />
+		<field name="designationId" type="long" />
+		<field name="gradeId" type="long" />
+		<field name="payLevelId" type="long" />
+		<field name="postId" type="long" />
+		<field name="tradeId" type="long" />
+		<field name="cadreId" type="long" />
+		<field name="organizationId" type="long" />
+		<field name="subOrganizationId" type="long" />
+		<field name="gradeModeId" type="long" />
+		<field name="designationClassId" type="long" />
+		<field name="designationGroupId" type="long" />
+		<field name="postName" type="String" />
+		<field name="employmentStatus" type="int" />
+		<field name="dateOfJoining" type="Date" />
+		<field name="dateOfJoiningOrganization" type="Date" />
+		<field name="currentDesignationDate" type="Date" />
+		<field name="retirementDate" type="Date" />
+		<field name="joiningProcessId" type="long" />
+		<field name="processType" type="String" />
+		<field name="loginId" type="String" />
+		<field name="bioData" type="String">
+			<hint name="max-length">4000</hint>
+		</field>
+		<field name="message" type="String">
+			<hint name="max-length">4000</hint>
+		</field>
+		<field name="gpfNps" type="String" />
+		<field name="gpfNpsNo" type="String" />
+		<field name="rank" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeAddress">
+		<field name="employeeAddressId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="fromDate" type="Date" />
+		<field name="permanent" type="boolean" />
+		<field name="toDate" type="Date" />
+		<field name="addressLine1" type="String" />
+		<field name="addressLine2" type="String" />
+		<field name="addressLine3" type="String" />
+		<field name="city" type="String" />
+		<field name="pinCode" type="String" />
+		<field name="countryId" type="long" />
+		<field name="stateId" type="long" />
+		<field name="accomodationTypeId" type="long" />
+		<field name="districtId" type="long" />
+		<field name="joiningProcessId" type="long" />
+		<field name="addressProofId" type="long" />
+		<field name="status" type="int" />
+		<field name="addressId" type="long" />
+		<field name="employeeId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeApplication">
+		<field name="employeeApplicationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="applicationId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeBenefitScheme">
+		<field name="employeeBenefitSchemeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="documentNo" type="String" />
+		<field name="fromDate" type="Date" />
+		<field name="toDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="benefitSchemeId" type="long" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeBiodata">
+		<field name="employeeBiodataId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="biodata" type="String" />
+		<field name="biodataFileId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeConfirmation">
+		<field name="employeeConfirmationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="confirmationDate" type="Date" />
+		<field name="confirmationLetterId" type="long" />
+		<field name="designationId" type="long" />
+		<field name="gradeId" type="long" />
+		<field name="gradeModeId" type="long" />
+		<field name="joiningId" type="long" />
+		<field name="promotionId" type="long" />
+		<field name="organizationId" type="long" />
+		<field name="confirmationPostId" type="long" />
+		<field name="status" type="int" />
+		<field name="employeeId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeContact">
+		<field name="employeeContactId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="deskNo" type="String" />
+		<field name="extn" type="String" />
+		<field name="phoneNo" type="String" />
+		<field name="contactId" type="long" />
+		<field name="employeeId" type="long" />
+		<field name="directNo" type="String" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeDelegation">
+		<field name="employeeDelegationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="delegationType" type="long" />
+		<field name="delegatedEmployeeId" type="long" />
+		<field name="employeeId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeDeputation">
+		<field name="employeeDeputationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="fromDate" type="Date" />
+		<field name="officeAddress" type="String" />
+		<field name="remark" type="String" />
+		<field name="toDate" type="Date" />
+		<field name="deputationTypeId" type="long" />
+		<field name="departmentId" type="long" />
+		<field name="employeeId" type="long" />
+		<field name="ministryId" type="long" />
+		<field name="postId" type="long" />
+		<field name="deputedPostId" type="long" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeDesignation">
+		<field name="employeeDesignationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="fromDate" type="Date" />
+		<field name="toDate" type="Date" />
+		<field name="designationId" type="long" />
+		<field name="employeeId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeDocument">
+		<field name="employeeDocumentId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="documentId" type="long" />
+		<field name="employeeId" type="long" />
+		<field name="title" type="String" />
+		<field name="documentTypeId" type="long" />
+		<field name="discription" type="String" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeDsc">
+		<field name="employeeDscId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="cid" type="String" />
+		<field name="details" type="String" />
+		<field name="ofbDSCReissueDate" type="Date" />
+		<field name="ofbDSCRevocationDate" type="Date" />
+		<field name="ofbDSCRevocationStatus" type="boolean" />
+		<field name="ofbDSCReissueStatus" type="boolean" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeEmail">
+		<field name="employeeEmailId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="emailAddress" type="String" />
+		<field name="emailAddressType" type="String" />
+		<field name="active" type="boolean" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeExperience">
+		<field name="employeeExperienceId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="fromDate" type="Date" />
+		<field name="toDate" type="Date" />
+		<field name="designationId" type="long" />
+		<field name="employeeId" type="long" />
+		<field name="postId" type="long" />
+		<field name="tradeId" type="long" />
+		<field name="experienceId" type="long" />
+		<field name="organizationId" type="long" />
+		<field name="workAreaId" type="long" />
+		<field name="workAreaMinorId" type="long" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeFamily">
+		<field name="employeeFamilyId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="alive" type="boolean" />
+		<field name="dateOfBirth" type="Date" />
+		<field name="dateOfDemise" type="Date" />
+		<field name="dependant" type="boolean" />
+		<field name="name" type="String" />
+		<field name="employeeId" type="long" />
+		<field name="genderId" type="long" />
+		<field name="occupationId" type="long" />
+		<field name="relationId" type="long" />
+		<field name="cgegisPercentage" type="float" />
+		<field name="dcrcPercentage" type="float" />
+		<field name="healthProblem" type="String" />
+		<field name="nominee" type="boolean" />
+		<field name="pfPercentage" type="float" />
+		<field name="documentProofId" type="long" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeGrade">
+		<field name="employeeGradeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="fromDate" type="Date" />
+		<field name="toDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="gradeId" type="long" />
+		<field name="gradeModeId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeJoining">
+		<field name="employeeJoiningId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="aadhaarNo" type="String" />
+		<field name="emailAddress" type="String" />
+		<field name="exServiceMan" type="boolean" />
+		<field name="panNo" type="String" />
+		<field name="personalNo" type="String" />
+		<field name="peopleId" type="long" />
+		<field name="fullName" type="String" />
+		<field name="designationId" type="long" />
+		<field name="gradeId" type="long" />
+		<field name="payLevelId" type="long" />
+		<field name="postId" type="long" />
+		<field name="tradeId" type="long" />
+		<field name="organizationId" type="long" />
+		<field name="subOrganizationId" type="long" />
+		<field name="designationClassId" type="long" />
+		<field name="designationGroupId" type="long" />
+		<field name="joiningModeId" type="long" />
+		<field name="joiningLetterId" type="long" />
+		<field name="gradeModeId" type="long" />
+		<field name="fromDate" type="Date" />
+		<field name="toDate" type="Date" />
+		<field name="selectionDate" type="Date" />
+		<field name="confirmationDate" type="Date" />
+		<field name="gradeConfirmationDate" type="Date" />
+		<field name="govtServiceDate" type="Date" />
+		<field name="recruitmentBatch" type="String" />
+		<field name="employeeId" type="long" />
+		<field name="emailId" type="String" />
+		<field name="postBox" type="String" />
+		<field name="dateOfJoining" type="Date" />
+		<field name="dateOfJoiningOrganization" type="Date" />
+		<field name="rank" type="long" />
+		<field name="joiningProcessId" type="long" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeMessage">
+		<field name="employeeMessageId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="title" type="String" />
+		<field name="message" type="String" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeOrganization">
+		<field name="employeeOrganizationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="personalNo" type="String" />
+		<field name="organizationId" type="long" />
+		<field name="organizationCode" type="String" />
+		<field name="subOrganizationId" type="long" />
+		<field name="subOrganizationCode" type="String" />
+		<field name="active" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeePastExperience">
+		<field name="employeePastExperienceId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="fromDate" type="Date" />
+		<field name="toDate" type="Date" />
+		<field name="organization" type="String" />
+		<field name="employeeId" type="long" />
+		<field name="experienceLetterId" type="long" />
+		<field name="workAreaId" type="long" />
+		<field name="designation" type="String" />
+		<field name="joiningProcessId" type="long" />
+		<field name="exServiceMan" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeePayStructure">
+		<field name="employeePayStructureId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="fromDate" type="Date" />
+		<field name="toDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="levelId" type="long" />
+		<field name="structureId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeePermission">
+		<field name="employeePermissionId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="status" type="int" />
+		<field name="statusByUserId" type="long" />
+		<field name="statusByUserName" type="String" />
+		<field name="statusDate" type="Date" />
+		<field name="idamUser" type="boolean" />
+		<field name="digitalSigning" type="boolean" />
+		<field name="pisAccess" type="boolean" />
+		<field name="emailAccess" type="boolean" />
+		<field name="eGovAccess" type="boolean" />
+		<field name="idamUserCreated" type="boolean" />
+		<field name="userCreated" type="boolean" />
+		<field name="employeeCreated" type="boolean" />
+		<field name="firstName" type="String" />
+		<field name="personalNo" type="long" />
+		<field name="lastName" type="String" />
+		<field name="emailAddress" type="String" />
+		<field name="designationId" type="long" />
+		<field name="employeeId" type="long" />
+		<field name="joiningProcessId" type="long" />
+		<field name="singleUserOnboardingId" type="long" />
+		<field name="registrationRequestId" type="long" />
+		<field name="form" type="String" />
+		<field name="currentState" type="String" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeePost">
+		<field name="employeePostId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="fromDate" type="Date" />
+		<field name="toDate" type="Date" />
+		<field name="postId" type="long" />
+		<field name="delegatedPostId" type="long" />
+		<field name="employeeId" type="long" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeProfile">
+		<field name="employeeProfileId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="profileDocumentId" type="long" />
+		<field name="profileDescription" type="String" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeePromotion">
+		<field name="employeePromotionId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="promotionDate" type="Date" />
+		<field name="designationId" type="long" />
+		<field name="employeeId" type="long" />
+		<field name="gradeId" type="long" />
+		<field name="gradeModeId" type="long" />
+		<field name="promotionLetterId" type="long" />
+		<field name="organizationId" type="long" />
+		<field name="personalNo" type="long" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeQualification">
+		<field name="employeeQualificationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="foreignDegree" type="boolean" />
+		<field name="foreignInstitution" type="String" />
+		<field name="fromYear" type="int" />
+		<field name="marksSecured" type="float" />
+		<field name="toYear" type="int" />
+		<field name="documentProofId" type="long" />
+		<field name="employeeId" type="long" />
+		<field name="gradeId" type="long" />
+		<field name="levelId" type="long" />
+		<field name="qualificationId" type="long" />
+		<field name="specializationId" type="long" />
+		<field name="marksPercentage" type="long" />
+		<field name="passedDate" type="Date" />
+		<field name="certificateId" type="long" />
+		<field name="qualificationDate" type="Date" />
+		<field name="institution" type="String" />
+		<field name="joiningProcessId" type="long" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeReporting">
+		<field name="employeeReportingId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="reportingToId" type="long" />
+		<field name="active" type="boolean" />
+		<field name="fromDate" type="Date" />
+		<field name="toDate" type="Date" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeSavingScheme">
+		<field name="employeeSavingSchemeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="documentNo" type="String" />
+		<field name="fromDate" type="Date" />
+		<field name="toDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="gradeId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeTrade">
+		<field name="employeeTradeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="fromDate" type="Date" />
+		<field name="toDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="tradeId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeTraining">
+		<field name="employeeTrainingId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="durationMonths" type="int" />
+		<field name="fromMonth" type="Date" />
+		<field name="toMonth" type="Date" />
+		<field name="courseId" type="long" />
+		<field name="employeeId" type="long" />
+		<field name="organizationId" type="long" />
+		<field name="certificateId" type="long" />
+		<field name="endDate" type="Date" />
+		<field name="startDate" type="Date" />
+		<field name="instituteId" type="long" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeTransfer">
+		<field name="employeeTransferId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="personalNo" type="String" />
+		<field name="transferDate" type="Date" />
+		<field name="designationId" type="long" />
+		<field name="employeeId" type="long" />
+		<field name="fromOrganizationId" type="long" />
+		<field name="gradeId" type="long" />
+		<field name="gradeModeId" type="long" />
+		<field name="toOrganizationId" type="long" />
+		<field name="transferLetterId" type="long" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeVerification">
+		<field name="employeeVerificationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="authority" type="String" />
+		<field name="documentNo" type="String" />
+		<field name="remarks" type="String" />
+		<field name="verificationDate" type="Date" />
+		<field name="verificationTypeId" type="long" />
+		<field name="documentId" type="long" />
+		<field name="employeeId" type="long" />
+		<field name="organizationId" type="long" />
+		<field name="joiningProcessId" type="long" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeWorkArea">
+		<field name="employeeWorkAreaId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="workAreaMajorId" type="long" />
+		<field name="active" type="boolean" />
+		<field name="fromDate" type="Date" />
+		<field name="toDate" type="Date" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.EmployeeWorkstation">
+		<field name="employeeWorkstationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="fromMonth" type="Date" />
+		<field name="toMonth" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="workStationId" type="long" />
+		<field name="deskNo" type="String" />
+		<field name="extnNo" type="String" />
+		<field name="directNo" type="String" />
+		<field name="phoneNo" type="String" />
+		<field name="cabinNo" type="String" />
+		<field name="floorNo" type="String" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.FamilyBenefitScheme">
+		<field name="familyBenefitSchemeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="percentage" type="float" />
+		<field name="familyMemberId" type="long" />
+		<field name="benefitSchemeId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.FamilyEducationDetail">
+		<field name="familyEducationDetailId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="boardUniversity" type="String" />
+		<field name="cityOfStudy" type="String" />
+		<field name="fromYear" type="int" />
+		<field name="institutionName" type="String" />
+		<field name="toYear" type="int" />
+		<field name="familyMemberId" type="long" />
+		<field name="levelId" type="long" />
+		<field name="stateId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.FamilyHealthDetail">
+		<field name="familyHealthDetailId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="boardUniversity" type="String" />
+		<field name="cityOfStudy" type="String" />
+		<field name="deseaseDetails" type="String" />
+		<field name="fromYear" type="int" />
+		<field name="institutionName" type="String" />
+		<field name="toYear" type="int" />
+		<field name="familyMemberId" type="long" />
+		<field name="stateId" type="long" />
+		<field name="hospitalName" type="String" />
+		<field name="underTreatment" type="boolean" />
+		<field name="cityOfHospital" type="String" />
+		<field name="levelId" type="long" />
+		<field name="diseaseTypeId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.FamilyMemberServiceDetail">
+		<field name="familyMemberServiceDetailId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="boardUniversity" type="String" />
+		<field name="fromYear" type="int" />
+		<field name="toYear" type="int" />
+		<field name="description" type="String" />
+		<field name="endDate" type="Date" />
+		<field name="organization" type="String" />
+		<field name="startDate" type="Date" />
+		<field name="familyMemberId" type="long" />
+		<field name="levelId" type="long" />
+		<field name="serviceTypeId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.FamilyServiceDetail">
+		<field name="familyServiceDetailId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="boardUniversity" type="String" />
+		<field name="fromYear" type="int" />
+		<field name="toYear" type="int" />
+		<field name="description" type="String" />
+		<field name="endDate" type="Date" />
+		<field name="organization" type="String" />
+		<field name="startDate" type="Date" />
+		<field name="familyMemberId" type="long" />
+		<field name="levelId" type="long" />
+		<field name="serviceTypeId" type="long" />
+		<field name="cityOfStudy" type="String" />
+		<field name="institutionName" type="String" />
+		<field name="stateId" type="long" />
+		<field name="cityOfWork" type="String" />
+		<field name="designation" type="String" />
+		<field name="govtServant" type="boolean" />
+		<field name="cityOfHospital" type="String" />
+		<field name="deseaseDetails" type="String" />
+		<field name="hospitalName" type="String" />
+		<field name="underTreatment" type="boolean" />
+		<field name="diseaseTypeId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.IDAMFailedTransaction">
+		<field name="idamFailedTransactionId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="classId" type="long" />
+		<field name="className" type="String" />
+		<field name="idamUrl" type="String" />
+		<field name="attribute" type="String" />
+		<field name="oldValue" type="String" />
+		<field name="newValue" type="String" />
+		<field name="error" type="String" />
+		<field name="firedon" type="Date" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.JoiningProcess">
+		<field name="uuid" type="String" />
+		<field name="joiningProcessId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="description" type="String" />
+		<field name="reason" type="String" />
+		<field name="personalNo" type="long" />
+		<field name="unitId" type="long" />
+		<field name="processFileId" type="long" />
+		<field name="processFileNo" type="long" />
+		<field name="notingContent" type="String" />
+		<field name="notingSubmittedDate" type="Date" />
+		<field name="notingApprovedDate" type="Date" />
+		<field name="processStatus" type="int" />
+		<field name="processCompletedDate" type="Date" />
+		<field name="reviewDate" type="Date" />
+		<field name="reviewerUserId" type="long" />
+		<field name="approveDate" type="Date" />
+		<field name="approverUserId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.JoiningProcessRequest">
+		<field name="uuid" type="String" />
+		<field name="joiningProcessRequestId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="joiningProcessId" type="long" />
+		<field name="employeeId" type="long" />
+		<field name="processFileId" type="long" />
+		<field name="processFileNo" type="String" />
+		<field name="officeOrderNo" type="String" />
+		<field name="doPart1Content" type="String" />
+		<field name="doPart1FileId" type="long" />
+		<field name="doPart2Content" type="String" />
+		<field name="doPart2FileId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.MonthlySalary">
+		<field name="monthlySalaryId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="grossDeduction" type="float" />
+		<field name="grossIncome" type="float" />
+		<field name="netPayble" type="float" />
+		<field name="processMonth" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="structureId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.MonthlySalaryComponent">
+		<field name="monthlySalaryComponentId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="amount" type="float" />
+		<field name="componentId" type="long" />
+		<field name="salaryId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.People">
+		<field name="peopleId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="appellationId" type="long" />
+		<field name="firstName_Hi" type="String" />
+		<field name="firstName_En" type="String" />
+		<field name="lastName_Hi" type="String" />
+		<field name="lastName_En" type="String" />
+		<field name="middleName_Hi" type="String" />
+		<field name="middleName_En" type="String" />
+		<field name="fatherName_Hi" type="String" />
+		<field name="fatherName_En" type="String" />
+		<field name="dateOfBirth" type="Date" />
+		<field name="genderId" type="long" />
+		<field name="maritalStatusId" type="long" />
+		<field name="casteCategoryId" type="long" />
+		<field name="identityProofId" type="long" />
+		<field name="bloodGroupId" type="long" />
+		<field name="citizenshipId" type="long" />
+		<field name="phTypeId" type="long" />
+		<field name="religionId" type="long" />
+		<field name="aadhaarNo" type="String" />
+		<field name="panNo" type="String" />
+		<field name="color" type="String" />
+		<field name="height" type="float" />
+		<field name="identificationMark" type="String" />
+		<field name="exServiceMan" type="boolean" />
+		<field name="profileImageId" type="long" />
+		<field name="joiningProcessId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.ProcessFile">
+		<field name="uuid" type="String" />
+		<field name="processFileId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="processFileNo" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.SampleProcess">
+		<field name="uuid" type="String" />
+		<field name="sampleProcessId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="description" type="String" />
+		<field name="processFileId" type="long" />
+		<field name="processFileNo" type="long" />
+		<field name="notingContent" type="String" />
+		<field name="notingSubmittedDate" type="Date" />
+		<field name="notingApprovedDate" type="Date" />
+		<field name="processStatus" type="int" />
+		<field name="processCompletedDate" type="Date" />
+		<field name="reviewDate" type="Date" />
+		<field name="reviewerUserId" type="long" />
+		<field name="approveDate" type="Date" />
+		<field name="approverUserId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.SampleProcessRequest">
+		<field name="uuid" type="String" />
+		<field name="sampleProcessRequestId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="deputationOrganization" type="String" />
+		<field name="deputationAddress" type="String" />
+		<field name="deputationCity" type="String" />
+		<field name="deputationState" type="String" />
+		<field name="processFileId" type="long" />
+		<field name="processFileNo" type="long" />
+		<field name="doPart1Content" type="String" />
+		<field name="doPart1SumittedDate" type="Date" />
+		<field name="doPart1ReviewDate" type="Date" />
+		<field name="doPart1Status" type="long" />
+		<field name="doPart2Content" type="String" />
+		<field name="doPart2SumittedDate" type="Date" />
+		<field name="doPart2ReviewDate" type="Date" />
+		<field name="doPart2Status" type="long" />
+		<field name="requestStatus" type="int" />
+		<field name="requestCompletedDate" type="Date" />
+		<field name="reviewDate" type="Date" />
+		<field name="reviewerUserId" type="long" />
+		<field name="approveDate" type="Date" />
+		<field name="approverUserId" type="long" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.ServiceRequest">
+		<field name="serviceRequestId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="serviceRequestTypeId" type="long" />
+		<field name="subject" type="String" />
+		<field name="description" type="String" />
+		<field name="employeeId" type="long" />
+		<field name="documentProofId" type="long" />
+		<field name="organizationId" type="long" />
+		<field name="joiningProcessId" type="Long" />
+		<field name="status" type="int" />
+		<field name="deleted" type="boolean" />
+		<field name="statusByUserId" type="long" />
+		<field name="statusByUserName" type="String" />
+		<field name="statusDate" type="Date" />
+		<field name="state" type="String" />
+		<field name="comments" type="String" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.ServiceRequestType">
+		<field name="serviceRequestTypeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="className" type="String" />
+		<field name="action" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.ServiceRequestWfStatusType">
+		<field name="serviceRequestWfStatusTypeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="name" type="long" />
+		<field name="className" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.ServiceRequestWorkflow">
+		<field name="serviceRequestWorkflowId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="serviceRequestId" type="long" />
+		<field name="employeeId" type="long" />
+		<field name="className" type="String" />
+		<field name="classPK" type="long" />
+		<field name="remark" type="String" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.pis.liferay.model.SingleUserOnboarding">
+		<field name="uuid" type="String" />
+		<field name="singleUserRegistrationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="status" type="int" />
+		<field name="statusByUserId" type="long" />
+		<field name="statusByUserName" type="String" />
+		<field name="statusDate" type="Date" />
+		<field name="recordNo" type="long" />
+		<field name="unitId" type="long" />
+		<field name="unit" type="String" />
+		<field name="personalNo" type="long" />
+		<field name="firstName" type="String" />
+		<field name="middleName" type="String" />
+		<field name="lastName" type="String" />
+		<field name="genderId" type="long" />
+		<field name="gender" type="String" />
+		<field name="designationId" type="long" />
+		<field name="designation" type="String" />
+		<field name="designationCode" type="String" />
+		<field name="tradeId" type="long" />
+		<field name="trade" type="String" />
+		<field name="tradeCode" type="String" />
+		<field name="gradeId" type="long" />
+		<field name="grade" type="String" />
+		<field name="gradeCode" type="String" />
+		<field name="dateOfBirth" type="Date" />
+		<field name="dateOfJoiningOrganization" type="Date" />
+		<field name="casteCategoryId" type="long" />
+		<field name="casteCategory" type="String" />
+		<field name="mobile" type="long" />
+		<field name="emailAddress" type="String" />
+		<field name="dateOfJoiningUnit" type="Date" />
+		<field name="gpfnpsType" type="String" />
+		<field name="gpfnpsNumber" type="long" />
+		<field name="sectionId" type="long" />
+		<field name="section" type="String" />
+		<field name="sectionCode" type="String" />
+		<field name="loginId" type="String" />
+		<field name="idamUser" type="boolean" />
+		<field name="emailAccess" type="boolean" />
+		<field name="digitalSigning" type="boolean" />
+		<field name="eGovAccess" type="boolean" />
+		<field name="pisAccess" type="boolean" />
+		<field name="state" type="String" />
+		<field name="idamUserCreated" type="boolean" />
+		<field name="employeeCreated" type="boolean" />
+		<field name="appUserCreated" type="boolean" />
+		<field name="postBox" type="String" />
+		<field name="rank" type="long" />
+		<field name="description" type="String" />
+		<field name="reason" type="String" />
+	</model>
+</model-hints>

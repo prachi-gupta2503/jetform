@@ -1,0 +1,13 @@
+Bundle-Name: jetform-liferay-api
+Bundle-SymbolicName: com.adjecti.jetform.liferay.api
+Bundle-Version: 1.0.0
+Export-Package: \
+	com.adjecti.jetform.liferay.exception,\
+	com.adjecti.jetform.liferay.model,\
+	com.adjecti.jetform.liferay.service,\
+	com.adjecti.jetform.liferay.service.persistence,\
+	com.adjecti.jetform.liferay.util,\
+	com.adjecti.jetform.liferay.helper,\
+	com.adjecti.jetform.liferay.activator
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../jetform-liferay-service/service.xml

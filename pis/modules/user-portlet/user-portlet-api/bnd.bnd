@@ -1,0 +1,10 @@
+Bundle-Name: user-portlet-api
+Bundle-SymbolicName: com.adj.userportlet.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.adj.userportlet.exception,\
+	com.adj.userportlet.model,\
+	com.adj.userportlet.service,\
+	com.adj.userportlet.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../user-portlet-service/service.xml

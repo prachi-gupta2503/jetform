@@ -1,0 +1,4 @@
+Bundle-Name: Application
+Bundle-SymbolicName: com.adj.application
+Bundle-Version: 1.0.0
+Export-Package: com.adj.application.constants

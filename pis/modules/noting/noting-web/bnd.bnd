@@ -1,0 +1,4 @@
+Bundle-Name: noting-web
+Bundle-SymbolicName: com.adjecti.noting.web
+Bundle-Version: 1.0.0
+Export-Package: com.adjecti.noting.web.constants

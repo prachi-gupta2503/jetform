@@ -1,0 +1,4 @@
+Bundle-Name: dashboard-birthday
+Bundle-SymbolicName: net.ofb.comnet2.dashboard.birthday
+Bundle-Version: 1.0.0
+Export-Package: net.ofb.comnet2.dashboard.birthday.constants

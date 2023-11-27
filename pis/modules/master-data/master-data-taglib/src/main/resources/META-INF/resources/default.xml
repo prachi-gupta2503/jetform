@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+		<attribute>
+            <name>id</name>  <!-- Id of tags like input tag id,Mandatory h -->
+            <required>true</required>
+        </attribute>
+        <attribute>
+            <name>name</name> <!-- Tags name like "" -->
+            <required>false</required>
+        </attribute>
+        
+        <attribute>
+            <name>selectedId</name>  <!-- SelectedId jis entity ka data selected aayega toh woh value selected ho jayegi -->
+            <required>false</required>
+        </attribute>
+        <attribute>
+            <name>selectedValue</name> <!-- Selected value ""                 ""                     ""                   -->
+            <required>false</required>
+        </attribute>
+        
+        <attribute>
+            <name>cssStyle</name>  <!-- If Style Found,change style otherwise default style -->
+            <required>false</required>            
+        </attribute>
+        <attribute>
+            <name>onChange</name>  <!-- If JavaScript found perform javascript -->
+            <required>false</required>
+        </attribute>	

@@ -1,0 +1,4 @@
+Bundle-Name: calendar-fragment
+Bundle-SymbolicName: calendar.fragment
+Bundle-Version: 1.0.0
+Fragment-Host: com.liferay.calendar.web;bundle-version="4.0.25"

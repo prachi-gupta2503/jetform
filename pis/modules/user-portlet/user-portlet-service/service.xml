@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.3.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_3_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="com.adj.userportlet">
+	<namespace>UP</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+	<entity local-service="true" name="UserPortlet" remote-service="true" uuid="true">
+
+		<!-- PK fields -->
+
+		<column name="id" primary="true" type="long" />
+
+		<!-- Group instance -->
+
+		<column name="groupId" type="long" />
+
+		<!-- Audit fields -->
+
+		<column name="companyId" type="long" />
+		<column name="userId" type="long" />
+		<column name="userName" type="String" />
+		<column name="createDate" type="Date" />
+		<column name="modifiedDate" type="Date" />
+
+		<!-- Other fields -->
+
+		<column name="portletId" type="String" />
+		<column name="thumbnail" type="String" />
+		
+		<column name="added" type="boolean" />
+       <order by="asc">
+           <order-column name="id"/>
+       </order>
+       
+       <finder name="PortletId" return-type="userportlet">
+        <finder-column name="portletId"/>
+        </finder>
+
+		<reference entity="AssetEntry" package-path="com.liferay.portlet.asset" />
+		<reference entity="AssetTag" package-path="com.liferay.portlet.asset" />
+	</entity>
+</service-builder>

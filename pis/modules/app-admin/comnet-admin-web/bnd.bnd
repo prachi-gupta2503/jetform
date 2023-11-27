@@ -1,0 +1,4 @@
+Bundle-Name: comnet-admin-web
+Bundle-SymbolicName: net.ayudh.comnet.admin
+Bundle-Version: 1.0.0
+Export-Package: net.ayudh.comnet.admin.constants

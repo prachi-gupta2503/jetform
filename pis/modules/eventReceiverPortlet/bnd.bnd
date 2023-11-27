@@ -1,0 +1,4 @@
+Bundle-Name: eventReceiverPortlet
+Bundle-SymbolicName: com.adj.event.receiver
+Bundle-Version: 1.0.0
+Export-Package: com.adj.event.receiver.constants

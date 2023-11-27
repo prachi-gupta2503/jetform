@@ -1,0 +1,4 @@
+Bundle-Name: dashboard-router
+Bundle-SymbolicName: dashboard.router
+Bundle-Version: 1.0.0
+Export-Package: dashboard.router.constants

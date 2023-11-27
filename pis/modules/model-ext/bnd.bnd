@@ -1,0 +1,5 @@
+Bundle-Name: model-ext
+Bundle-SymbolicName: com.adjecti.pis.ext
+Bundle-Version: 1.0.0
+Export-Package: com.adjecti.pis.ext
+Import-Package: *; version="0";resolution:=optional

@@ -1,0 +1,11 @@
+Bundle-Name: select-option-api
+Bundle-SymbolicName: com.adj.select.api
+Bundle-Version: 1.0.0
+Export-Package: \
+	com.adj.select.exception,\
+	com.adj.select.model,\
+	com.adj.select.service,\
+	com.adj.select.service.persistence,\
+	com.adj.select.dto
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../select-option-service/service.xml

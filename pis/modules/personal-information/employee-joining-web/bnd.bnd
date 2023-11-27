@@ -1,0 +1,4 @@
+Bundle-Name: employee-joining-web
+Bundle-SymbolicName: com.adjecti.pis.joining.liferay
+Bundle-Version: 1.0.0
+Export-Package: com.adjecti.pis.joining.liferay.constants

@@ -1,0 +1,5 @@
+Bundle-Name: mdm-forms
+Bundle-SymbolicName: com.adjecti.mdm.liferay.form
+Bundle-Version: 1.0.0
+Bundle-Activator: com.adjecti.mdm.liferay.activator.Activator
+Export-Package: com.adjecti.mdm.liferay.form

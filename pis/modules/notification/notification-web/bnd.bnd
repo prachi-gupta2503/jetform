@@ -1,0 +1,4 @@
+Bundle-Name: notification-web
+Bundle-SymbolicName: net.ayudh.portal.notification
+Bundle-Version: 1.0.0
+Export-Package: net.ayudh.portal.notification.constants

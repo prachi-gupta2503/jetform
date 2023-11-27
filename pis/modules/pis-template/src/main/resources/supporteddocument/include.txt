@@ -1,0 +1,11 @@
+Include for Top Apps Navigation :- 
+		
+		<#include "pis-template_SERVLET_CONTEXT_/pis/templates/Top_Apps_Navigation.ftl">
+
+Include for Left Navigation :-
+
+		<#include "pis-template_SERVLET_CONTEXT_/pis/templates/Left_Navigation.ftl"> 
+
+Include for Profile Menu Template :-
+
+		<#include "pis-template_SERVLET_CONTEXT_/pis/templates/Top_Apps_Navigation.ftl">

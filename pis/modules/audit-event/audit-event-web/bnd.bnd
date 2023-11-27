@@ -1,0 +1,7 @@
+Bundle-Name: audit-event-web
+Bundle-SymbolicName: net.ayudh.audit
+Bundle-Version: 1.0.0
+Export-Package: net.ayudh.audit.constants
+
+
+

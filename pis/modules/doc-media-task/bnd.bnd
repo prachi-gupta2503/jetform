@@ -1,0 +1,4 @@
+Bundle-Name: doc-media-task
+Bundle-SymbolicName: com.adj.dm
+Bundle-Version: 1.0.0
+Export-Package: com.adj.dm.constants

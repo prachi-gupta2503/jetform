@@ -1,0 +1,15 @@
+dependencies {
+	compile project(":modules:jetform-core")
+	
+	compile project(":modules:jetform-liferay:jetform-liferay-api")
+	//compileOnly project(":modules:excel-util")
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+	// https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+	
+}
+
+buildService {
+	apiDir = "../jetform-liferay-api/src/main/java"
+}
+
+group = "com.adjecti.jetform.liferay"

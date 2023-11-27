@@ -1,0 +1,54 @@
+.personal-information-web {
+}
+
+.mdm-anchor{
+	text-decoration: none;
+	color:black;
+}
+
+a.mdm-anchor:hover, a.mdm-anchor:active {
+	text-decoration: none;
+	color:black;
+}
+
+.c-m{
+	margin:5px;
+	width: 18rem;
+	padding:10px;
+}
+
+.c-m:hover{
+	border:1px solid black;
+	background-color: #f1f2f5;
+
+}
+.search-container{
+	width:50%;
+	margin-left:25%;
+	margin-bottom: 2%;
+}
+
+#imageUpload
+{
+    display: none;
+}
+
+#profileImage
+{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    padding :5px;
+    border:1px solid black;
+}
+
+#profile-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}

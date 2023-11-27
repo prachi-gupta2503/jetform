@@ -1,0 +1,9 @@
+Bundle-Name: pis-forms
+Bundle-SymbolicName: com.adjecti.pis.liferay.form
+Bundle-Version: 1.0.0
+Export-Package: \
+	com.adjecti.pis.liferay.form,\
+	com.adjecti.pis.liferay.form.card
+
+Bundle-Activator:com.adjecti.pis.liferay.activator.Activator
+	

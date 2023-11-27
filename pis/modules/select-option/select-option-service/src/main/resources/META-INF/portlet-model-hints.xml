@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.adj.select.model.Select">
+		<field name="idFieldName" type="String" />
+		<field name="valueFieldName" type="String" />
+		<field name="tableName" type="String" />
+	</model>
+</model-hints>

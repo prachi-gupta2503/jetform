@@ -1,0 +1,10 @@
+Bundle-Name: noting-api
+Bundle-SymbolicName: com.adjecti.noting.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.adjecti.noting.exception,\
+	com.adjecti.noting.model,\
+	com.adjecti.noting.service,\
+	com.adjecti.noting.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../noting-service/service.xml

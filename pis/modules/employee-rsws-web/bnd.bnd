@@ -1,0 +1,13 @@
+Bundle-Name: employee-rsws-web
+Bundle-SymbolicName: net.ayudh.portal.employee.web
+Bundle-Version: 1.0.0
+Export-Package: net.ayudh.portal.employee.web.constants
+
+Import-Package: *; version="0";resolution:=optional
+	
+-check: EXPORTS
+
+
+Bundle-ClassPath:.,\
+  lib/httpclient.jar,\
+  lib/httpcore.jar

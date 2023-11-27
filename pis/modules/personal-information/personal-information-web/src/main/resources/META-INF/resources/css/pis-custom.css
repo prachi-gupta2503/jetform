@@ -1,0 +1,42 @@
+.row-action{
+	margin:0px 5px 0px 5px;
+}
+
+/*.row-action-delete i{
+	color: red;
+}*/
+
+.row-action-view-only.row-action-edit i, .row-action-view-only.row-action-delete i{
+	color:grey !important;
+}
+
+.other-info-accordion .nav-pills > li > a{
+	color: #0253cc !important;
+}
+
+.other-info-accordion .nav-pills > li > a.active{
+	color: #fff !important;
+}
+
+table.dataTable th{
+	font-weight: 600 !important;
+}
+
+.modal-header {
+    font-weight: 600 !important;
+    color: #fff !important;
+    background: linear-gradient(to right, #00c5fb 0%, #0253cc 100%) !important;	
+    height: 3rem !important;
+    padding: 0.7rem !important;
+}
+.bg-primary{
+	background: linear-gradient(to right, #00c5fb 0%, #0253cc 100%) !important;	
+}
+
+.body-wrapper .top-navbar .top-menu{
+	
+	background: linear-gradient(to right, #00c5fb 0%, #0253cc 100%) !important;	
+}
+.modal .close {
+    color: #fff !important;
+}

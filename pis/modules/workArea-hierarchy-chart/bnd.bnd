@@ -1,0 +1,4 @@
+Bundle-Name: workArea-hierarchy-chart
+Bundle-SymbolicName: com.adjecti.liferay.workarea.hierarchy
+Bundle-Version: 1.0.0
+Export-Package: com.adjecti.liferay.workarea.hierarchy.constants

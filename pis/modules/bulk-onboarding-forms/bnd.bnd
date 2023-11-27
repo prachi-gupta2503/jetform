@@ -1,0 +1,5 @@
+Bundle-Name: bulk-onboarding-forms
+Bundle-SymbolicName: com.adjecti.onboarding.web.form
+Bundle-Version: 1.0.0
+Export-Package: com.adjecti.onboarding.web.form
+Bundle-Activator: com.adjecti.onboarding.web.activator.Activator

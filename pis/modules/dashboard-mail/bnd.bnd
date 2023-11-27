@@ -1,0 +1,19 @@
+Bundle-Name: dashboard-mail
+Bundle-SymbolicName: net.ofb.dashboard.mail
+Bundle-Version: 1.0.0
+Export-Package: net.ofb.dashboard.mail.constants
+-metatype: *
+-sources: true
+
+Import-Package: *; version="0";resolution:=optional
+	
+-check: EXPORTS
+-includeresource:\
+lib/httpcore.jar=httpcore-4.4.9.jar,\
+lib/httpclient.jar=httpclient-4.5.5.jar,\
+lib/commons-codec.jar=commons-codec-1.13.jar
+
+Bundle-ClassPath:.,\
+  lib/httpcore.jar,\
+  lib/httpclient.jar,\
+  lib/commons-codec.jar

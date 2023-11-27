@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="net.ayudh.comnet.admin.model.ApplicationAccess">
+		<field name="applicationAccessId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="applicationId" type="long" />
+		<field name="status" type="int" />
+		<field name="deleted" type="boolean" />
+	</model>
+	<model name="net.ayudh.comnet.admin.model.ApplicationUser">
+		<field name="applicationUserId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="employeeId" type="long" />
+		<field name="loginId" type="String" />
+		<field name="status" type="int" />
+		<field name="deleted" type="boolean" />
+		<field name="idamUser" type="boolean" />
+		<field name="emailAccess" type="boolean" />
+		<field name="digitalSigning" type="boolean" />
+		<field name="eGovAccess" type="boolean" />
+		<field name="pisAccess" type="boolean" />
+		<field name="lastIdamUser" type="boolean" />
+		<field name="lastEmailAccess" type="boolean" />
+		<field name="lastDigitalSigning" type="boolean" />
+		<field name="lastEGovAccess" type="boolean" />
+		<field name="lastPisAccess" type="boolean" />
+		<field name="idamServiceStatus" type="boolean" />
+		<field name="idamServiceMessage" type="String" />
+		<field name="idamUserCreated" type="boolean" />
+	</model>
+</model-hints>

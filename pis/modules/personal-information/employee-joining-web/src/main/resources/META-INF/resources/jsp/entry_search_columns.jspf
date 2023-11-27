@@ -1,0 +1,17 @@
+
+<%@page import="com.liferay.portal.kernel.language.LanguageUtil"%>
+
+
+
+<liferay-ui:search-container-column-text name="peopleId" />
+<liferay-ui:search-container-column-text name="name" />
+<liferay-ui:search-container-column-text name="employeeId" />
+<liferay-ui:search-container-column-text name="state" />
+
+
+
+				
+
+		
+
+		

@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:notification:notification-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../notification-api/src/main/java"
+}
+
+group = "net.ayudh.portal.notification"

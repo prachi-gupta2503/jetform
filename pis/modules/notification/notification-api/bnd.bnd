@@ -1,0 +1,10 @@
+Bundle-Name: notification-api
+Bundle-SymbolicName: net.ayudh.portal.notification.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	net.ayudh.portal.notification.exception,\
+	net.ayudh.portal.notification.model,\
+	net.ayudh.portal.notification.service,\
+	net.ayudh.portal.notification.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../notification-service/service.xml

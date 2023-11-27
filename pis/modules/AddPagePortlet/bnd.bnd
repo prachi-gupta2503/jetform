@@ -1,0 +1,4 @@
+Bundle-Name: AddPagePortlet
+Bundle-SymbolicName: com.adj.addpage
+Bundle-Version: 1.0.0
+Export-Package: com.adj.addpage.constants

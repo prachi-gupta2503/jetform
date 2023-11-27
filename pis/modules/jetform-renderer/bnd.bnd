@@ -1,0 +1,4 @@
+Bundle-Name: jetform-renderer
+Bundle-SymbolicName: com.adjecti.jetform.renderer
+Bundle-Version: 1.0.0
+Export-Package: com.adjecti.jetform.liferay.helper

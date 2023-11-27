@@ -1,0 +1,5 @@
+Bundle-Name: personal-information-rs
+Bundle-SymbolicName: com.adj.rsapi
+Bundle-Version: 1.0.0
+Liferay-Configuration-Path: /configuration
+Import-Package: *; version="0";resolution:=optional

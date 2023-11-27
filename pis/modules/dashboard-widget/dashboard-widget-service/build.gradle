@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:dashboard-widget:dashboard-widget-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../dashboard-widget-api/src/main/java"
+}
+
+group = "com.adjecti.dashboard.widget"

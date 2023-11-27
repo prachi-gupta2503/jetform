@@ -1,0 +1,9 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+	compile project(":modules:master-data:master-data-api")
+	compile project(":modules:personal-information:personal-information-api")
+	compileOnly project(":modules:registration-request:registration-request-api")
+	compile group: 'org.glassfish', name: 'javax.faces', version: '2.2.10'
+
+	
+}

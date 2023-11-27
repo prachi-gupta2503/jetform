@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.3.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_3_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="net.ayudh.audit">
+	<namespace>audit</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+		<entity local-service="true" name="AuditEventArchive"
+		remote-service="true" >
+		<!-- PK fields -->
+
+		<column name="auditEventArchiveId" primary="true" type="long" />
+
+		<!-- Group instance -->
+
+		
+		<!-- Audit fields -->
+
+		<column name="companyId" type="long" />
+		<column name="userId" type="long" />
+		<column name="userName" type="String" />
+		<column name="createDate" type="Date" />
+		
+		<!-- Other fields -->
+		<column name="eventType" type="String"></column>
+		<column name="className" type="String"></column>
+		<column name="classPK" type="String"></column>
+		<column name="message" type="String"></column>
+		<column name="clientHost" type="String"></column>
+		<column name="clientIP" type="String"></column>	
+		<column name="serverName" type="String"></column>
+		<column name="serverPort" type="int"></column>
+		<column name="sessionId" type="String"></column>
+		<column name="additionalInfo" type="String"></column>
+		
+		<!-- Order -->
+		<order by="asc">
+			<order-column name="auditEventArchiveId" />
+		</order>
+		
+	</entity>
+</service-builder>

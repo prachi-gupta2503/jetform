@@ -1,0 +1,6 @@
+Bundle-Name: master-data-web
+Bundle-SymbolicName: com.adjecti.mdm.liferay
+Bundle-Version: 1.0.0
+Export-Package: com.adjecti.mdm.liferay.constants
+Bundle-Activator: com.adjecti.mdm.liferay.activator.MDMActivator
+

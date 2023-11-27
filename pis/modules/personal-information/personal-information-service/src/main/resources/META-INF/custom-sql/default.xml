@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custom-sql>
+    <sql id="com.adjecti.pis.liferay.service.persistence.PeopleFinder.findByDateOfBirth">
+        <![CDATA[
+        
+        SELECT * 
+        FROM pis_people 
+        where 
+        (EXTRACT(day from dateOfBirth) = ?) and
+        (EXTRACT(month from dateOfBirth) = ?)
+        
+           
+        ]]>
+    </sql>
+    
+    <sql id="com.adjecti.pis.liferay.service.persistence.EmployeeFinder.findEmployeeByDesignationGroupAndEmployeeStatus">
+        <![CDATA[
+        
+      SELECT e.* FROM pis_employee e join pis_people p on p.peopleId=e.peopleId
+join mdm_designation d on e.designationId=d.designationId where e.status=0 and d.designationGroup=? and 
+(EXTRACT(day from p.dateOfBirth) = ?) and
+        (EXTRACT(month from p.dateOfBirth) = ?)
+
+           
+        ]]>
+    </sql>
+</custom-sql>

@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.3.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_3_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="com.adjecti.jetform.liferay">
+	<namespace>jetform</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+	<entity name="JetFormBuilder" local-service="true" remote-service="true">
+	
+	</entity>
+	<entity name="FormDefinition" local-service="true" remote-service="true" uuid="true">
+		<!-- PK fields -->
+
+		<column name="formDefinitionId" primary="true" type="long" />
+
+		<!-- Group instance -->
+
+		<column name="groupId" type="long" />
+
+		<!-- Audit fields -->
+
+		<column name="companyId" type="long" />
+		<column name="userId" type="long" />
+		<column name="userName" type="String" />
+		<column name="createDate" type="Date" />
+		<column name="modifiedDate" type="Date" />
+		
+		<column name="formKey" type="String" />
+		<column name="formClass" type="String" />
+		<column name="entityClass" type="String" />
+		<column name="definition" type="String" />
+		
+		<finder name="FormClass" return-type="FormDefinition">
+			<finder-column name="formClass" />
+		</finder>	
+		
+	</entity>
+	
+	<entity name="Document" local-service="true">
+	
+	</entity>
+	<entity name="ImportMasterEntity" local-service="true">
+
+    	<!-- PK fields -->
+
+    	<column name="importMasterEntityId" primary="true" type="long"></column>
+
+    	<!-- Group instance -->
+
+    	<column name="groupId" type="long"></column>
+
+    	<!-- Audit fields -->
+
+    	<column name="companyId" type="long"></column>
+    	<column name="userId" type="long"></column>
+    	<column name="userName" type="String"></column>
+    	<column name="createDate" type="Date"></column>
+    	<column name="modifiedDate" type="Date"></column>
+        <column name="name" type="String"></column>
+        <column name="entityClass" type="String"></column>
+        <column name="description" type="String"></column>
+        <column name="importFileId" type="long"></column>
+    </entity>
+    <entity name="EntityWorkflow" local-service="true">
+
+    	<!-- PK fields -->
+
+    	<column name="entityWorkflowId" primary="true" type="long"></column>
+
+    	<!-- Group instance -->
+
+    	<column name="groupId" type="long"></column>
+
+    	<!-- Audit fields -->
+
+    	<column name="companyId" type="long"></column>
+    	<column name="userId" type="long"></column>
+    	<column name="userName" type="String"></column>
+    	<column name="createDate" type="Date"></column>
+    	<column name="modifiedDate" type="Date"></column>
+    	<column name="status" type="int"></column>
+    	<column name="className" type="String"></column>
+    	<column name="classPK" type="long"></column>
+        <column name="remark" type="String"></column>
+        
+        <finder return-type="Collection" name="ClassNameAndClassPK">
+			<finder-column name="className" case-sensitive="false"/>
+			<finder-column name="classPK"/>
+		</finder>
+
+    </entity>
+</service-builder>

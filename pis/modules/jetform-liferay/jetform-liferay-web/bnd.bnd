@@ -1,0 +1,4 @@
+Bundle-Name: jetform-liferay-web
+Bundle-SymbolicName: com.adjecti.jetform.liferay
+Bundle-Version: 1.0.0
+Export-Package: com.adjecti.jetform.liferay.constants

@@ -1,0 +1,1140 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.adjecti.mdm.liferay.model.AccomodationType">
+		<field name="accomodationTypeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="description" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.AmountType">
+		<field name="amountTypeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.Appellation">
+		<field name="appellationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.Application">
+		<field name="applicationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="oemId" type="long" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.BenefitScheme">
+		<field name="benefitSchemeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="code" type="String" />
+		<field name="description" type="String" />
+		<field name="effectiveFrom" type="Date" />
+		<field name="effectiveRate" type="float" />
+		<field name="effectiveUpto" type="Date" />
+		<field name="name" type="String" />
+		<field name="frequencyId" type="int" />
+		<field name="rateTypeId" type="int" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.BloodGroup">
+		<field name="bloodGroupId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.Cadre">
+		<field name="cadreId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="description" type="String" />
+		<field name="designationGroupId" type="long" />
+		<field name="rank" type="int" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.CadreDesignation">
+		<field name="cadreDesignationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="cadreId" type="long" />
+		<field name="designationId" type="long" />
+		<field name="rank" type="int" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.CasteCategory">
+		<field name="casteCategoryId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.Course">
+		<field name="courseId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="description" type="String" />
+		<field name="name" type="String" />
+		<field name="categoryId" type="String" />
+		<field name="subjectOfTrainingId" type="long" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.CourseCategory">
+		<field name="courseCategoryId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="description" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.DeputationType">
+		<field name="deputationTypeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="description" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.Designation">
+		<field name="designationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name_En" type="String" />
+		<field name="name_Hi" type="String" />
+		<field name="shortName" type="String" />
+		<field name="longName" type="String" />
+		<field name="description" type="String" />
+		<field name="designationClassId" type="long" />
+		<field name="designationGroupId" type="long" />
+		<field name="designationGroup" type="String" />
+		<field name="gradeId" type="long" />
+		<field name="organizationType" type="String" />
+		<field name="sequenceNo" type="String" />
+		<field name="rank" type="int" />
+		<field name="scopeType" type="int" />
+		<field name="scopeOrganizationId" type="long" />
+		<field name="scopeOrganizationTypeId" type="long" />
+		<field name="scopePostId" type="long" />
+		<field name="designationModeId" type="long" />
+		<field name="successorGradeId" type="long" />
+		<field name="scopeOrganizationName" type="String" />
+		<field name="scopePostName" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.DesignationClass">
+		<field name="designationClassId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="description" type="String" />
+		<field name="code" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.DesignationGrade">
+		<field name="designationGradeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="description" type="String" />
+		<field name="name" type="String" />
+		<field name="code" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.DesignationGroup">
+		<field name="designationGroupId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="uuid" type="String" />
+		<field name="code" type="String" />
+		<field name="description" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.DesignationMode">
+		<field name="designationModeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.DesignationScope">
+		<field name="designationScopeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="designationId" type="long" />
+		<field name="scopeType" type="int" />
+		<field name="scopeOrganizationId" type="long" />
+		<field name="scopeOrganizationTypeId" type="long" />
+		<field name="scopePostId" type="long" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.Disease">
+		<field name="diseaseId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="description" type="String" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.DiseaseType">
+		<field name="diseaseTypeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="description" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.District">
+		<field name="districtId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="stateId" type="long" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.Document">
+		<field name="documentId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="description" type="String" />
+		<field name="name" type="String" />
+		<field name="path" type="String" />
+		<field name="refNo" type="String" />
+		<field name="typeId" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.DocumentType">
+		<field name="documentTypeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="description" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.Experience">
+		<field name="experienceId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.FamilyRelation">
+		<field name="familyRelationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="description" type="String" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.Gender">
+		<field name="genderId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.Grade">
+		<field name="gradeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="description" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.GradeMode">
+		<field name="gradeModeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="code" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.JoiningMode">
+		<field name="joiningModeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="description" type="String" />
+		<field name="code" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.LevelWisePayStructure">
+		<field name="levelWisePayStructureId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="fromDate" type="Date" />
+		<field name="toDate" type="Date" />
+		<field name="levelId" type="long" />
+		<field name="structureId" type="long" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.Location">
+		<field name="locationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="addressId" type="long" />
+		<field name="city" type="String" />
+		<field name="stateId" type="long" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.MaritalStatus">
+		<field name="maritalStatusId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.MasterEntity">
+		<field name="masterEntityId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="entityClass" type="String" />
+		<field name="icon" type="String" />
+		<field name="link" type="String">
+			<hint name="max-length">1024</hint>
+		</field>
+		<field name="description" type="String">
+			<hint name="max-length">1024</hint>
+		</field>
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.Occupation">
+		<field name="occupationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.OccupationServiceType">
+		<field name="occupationServiceTypeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="description" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.OEM">
+		<field name="oemId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.OrganizationDetail">
+		<field name="organizationDetailId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="organizationId" type="long" />
+		<field name="organizationCode" type="String" />
+		<field name="parentId" type="long" />
+		<field name="parentCode" type="String" />
+		<field name="type" type="String" />
+		<field name="shortName" type="String" />
+		<field name="longName" type="String" />
+		<field name="division" type="String" />
+		<field name="addressedTo" type="String" />
+		<field name="address1" type="String" />
+		<field name="address2" type="String" />
+		<field name="address3" type="String" />
+		<field name="city" type="String" />
+		<field name="district" type="String" />
+		<field name="stateId" type="long" />
+		<field name="zone" type="String" />
+		<field name="pin" type="String" />
+		<field name="nearestRailwayStation" type="String" />
+		<field name="telegram" type="String" />
+		<field name="fax" type="String" />
+		<field name="telex" type="String" />
+		<field name="telephone1" type="String" />
+		<field name="telephone2" type="String" />
+		<field name="stationId" type="String" />
+		<field name="unitType" type="String" />
+		<field name="orgStatus" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.OrganizationHistory">
+		<field name="organizationHistoryId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="organizationId" type="long" />
+		<field name="previousOrganizationName" type="String" />
+		<field name="previousOrganizationId" type="long" />
+		<field name="previousParentOrganizationName" type="String" />
+		<field name="previousParentOrganizationId" type="long" />
+		<field name="organizationName" type="String" />
+		<field name="status" type="String" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.OrganizationPayStructure">
+		<field name="organizationPayStructureId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="fromDate" type="Date" />
+		<field name="toDate" type="Date" />
+		<field name="levelId" type="long" />
+		<field name="organizationId" type="long" />
+		<field name="structureId" type="long" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.OrganizationStation">
+		<field name="organizationStationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.OrganizationType">
+		<field name="organizationTypeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="longName" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.PayComponent">
+		<field name="payComponentId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="amount" type="float" />
+		<field name="amountType" type="String" />
+		<field name="fromDate" type="Date" />
+		<field name="toDate" type="Date" />
+		<field name="dependantId" type="long" />
+		<field name="headId" type="long" />
+		<field name="structureId" type="long" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.PayHead">
+		<field name="payHeadId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="code" type="String" />
+		<field name="disbursePeriod" type="int" />
+		<field name="fromDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="nonTaxable" type="boolean" />
+		<field name="toDate" type="Date" />
+		<field name="headTypeId" type="long" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.PayHeadType">
+		<field name="payHeadTypeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="code" type="String" />
+		<field name="deduction" type="boolean" />
+		<field name="deductionType" type="int" />
+		<field name="fromDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="toDate" type="Date" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.PayLevel">
+		<field name="payLevelId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.PayStructure">
+		<field name="payStructureId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="currency" type="String" />
+		<field name="effectiveDate" type="Date" />
+		<field name="expiryDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.PersonalNoPrefix">
+		<field name="personalNoPrefixId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="active" type="boolean" />
+		<field name="fromDate" type="Date" />
+		<field name="prefix" type="String" />
+		<field name="toDate" type="Date" />
+		<field name="desigClassId" type="long" />
+		<field name="desigGradeId" type="long" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.PhType">
+		<field name="phTypeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="description" type="String" />
+		<field name="name" type="String" />
+		<field name="code" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.Post">
+		<field name="postId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name_En" type="String" />
+		<field name="name_Hi" type="String" />
+		<field name="designationId" type="long" />
+		<field name="postBox" type="boolean" />
+		<field name="description" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.PostDelegation">
+		<field name="postDelegationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="delegationType" type="String" />
+		<field name="delegatedPostId" type="long" />
+		<field name="postId" type="long" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.PostHierarchy">
+		<field name="postHierarchyId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="lowerPostId" type="long" />
+		<field name="upperPostId" type="long" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.PostOrganization">
+		<field name="postOrganizationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="postId" type="long" />
+		<field name="organizationId" type="long" />
+		<field name="postBox" type="boolean" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.PostReporting">
+		<field name="postReportingId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="reporteePostId" type="long" />
+		<field name="reporterPostId" type="long" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.Qualification">
+		<field name="qualificationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="description" type="String" />
+		<field name="name" type="String" />
+		<field name="shortName" type="String" />
+		<field name="fullName" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.QualificationGrade">
+		<field name="qualificationGradeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="description" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.QualificationLevel">
+		<field name="qualificationLevelId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="description" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.QualificationSubject">
+		<field name="qualificationSubjectId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="description" type="String" />
+		<field name="name" type="String" />
+		<field name="code" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.Religion">
+		<field name="religionId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.ServiceRequestType">
+		<field name="serviceRequestTypeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="className" type="String" />
+		<field name="action" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.Specialization">
+		<field name="specializationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="description" type="String" />
+		<field name="name" type="String" />
+		<field name="code" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.State">
+		<field name="stateId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="countryId" type="long" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.SubjectOfQualification">
+		<field name="subjectOfQualificationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="description" type="String" />
+		<field name="code" type="String" />
+		<field name="subjectOfQualification" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.SubjectOfTraining">
+		<field name="subjectOfTrainingId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="description" type="String" />
+		<field name="code" type="String" />
+		<field name="trainingSubject" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.TimeFrequency">
+		<field name="timeFrequencyId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.Trade">
+		<field name="tradeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="description" type="String" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="parentId" type="long" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.TrainingCourse">
+		<field name="trainingCourseId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="description" type="String" />
+		<field name="institution" type="String" />
+		<field name="locationOfInstitute" type="String" />
+		<field name="name" type="String" />
+		<field name="organizationId" type="long" />
+		<field name="specializationId" type="long" />
+		<field name="stateInstituteId" type="long" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.TrainingInstitute">
+		<field name="trainingInstituteId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="locationId" type="long" />
+		<field name="stateId" type="long" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.TrainingSubject">
+		<field name="trainingSubjectId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="description" type="String" />
+		<field name="name" type="String" />
+		<field name="code" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.UnitType">
+		<field name="unitTypeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="description" type="String" />
+		<field name="code" type="String" />
+		<field name="shortDiscription" type="String" />
+		<field name="longDiscription" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.VerificationType">
+		<field name="verificationTypeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="description" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.WorkArea">
+		<field name="workAreaId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="workAreaTypeId" type="long" />
+		<field name="parentWorkAreaId" type="long" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.WorkAreaMajor">
+		<field name="workAreaMajorId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="workAreaTypeId" type="long" />
+		<field name="parentWorkAreaId" type="long" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.WorkAreaMinor">
+		<field name="workAreaMinorId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="workAreaMajorId" type="long" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.WorkAreaType">
+		<field name="workAreaTypeId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="name" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.adjecti.mdm.liferay.model.WorkStation">
+		<field name="workStationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="code" type="String" />
+		<field name="deskNo" type="String" />
+		<field name="extnNo" type="String" />
+		<field name="directNo" type="String" />
+		<field name="phoneNo" type="String" />
+		<field name="cabinNo" type="String" />
+		<field name="floorNo" type="String" />
+		<field name="deleted" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+</model-hints>

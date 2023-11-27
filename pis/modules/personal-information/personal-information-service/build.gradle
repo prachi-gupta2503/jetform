@@ -1,0 +1,17 @@
+dependencies {
+	compile project(":modules:personal-information:personal-information-api")
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+	compileOnly group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.5'
+	compileOnly group: 'org.apache.httpcomponents', name: 'httpcore', version: '4.4.9'
+
+
+	compile project(":modules:master-data:master-data-api")
+	compileOnly project(":modules:registration-request:registration-request-api")
+	compile group: 'com.liferay' ,name:'com.liferay.portal.dao.orm.custom.sql.api'
+}
+
+buildService {
+	apiDir = "../personal-information-api/src/main/java"
+}
+
+group = "com.adjecti.pis.liferay"

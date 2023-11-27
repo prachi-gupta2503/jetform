@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.3.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_3_0.dtd">
+
+<service-builder dependency-injector="ds" 	package-path="com.adjecti.pis">
+	<namespace>OFB</namespace>
+	
+	<entity local-service="true" name="RegistrationRequest"	remote-service="true" uuid="true">
+		<!-- PK fields -->
+
+		<column name="registrationRequestId" primary="true" type="long" />
+
+		<!-- Group instance -->
+
+		<column name="groupId" type="long" />
+
+		<!-- Audit fields -->
+
+		<column name="companyId" type="long" />
+		<column name="userId" type="long" />
+		<column name="userName" type="String" />
+		<column name="createDate" type="Date" />
+		<column name="modifiedDate" type="Date" />
+
+
+		<!-- Status fields -->
+
+		<column name="status" type="int" />
+		<column name="statusByUserId" type="long" />
+		<column name="statusByUserName" type="String" />
+		<column name="statusDate" type="Date" />
+
+
+		<!-- Other fields -->
+		<column name="recordNo" type="long"></column>
+		<column name="unitId" type="long"></column>
+		<column name="unit" type="String"></column>
+		<column name="personalNo" type="long"></column>
+		<column name="firstName" type="String"></column>
+		<column name="middleName" type="String"></column>
+		<column name="lastName" type="String"></column>
+		<column name="genderId" type="long"></column>
+		<column name="gender" type="String"></column>
+		<column name="designationId" type="long"></column>
+		<column name="designation" type="String"></column>
+		<column name="designationCode" type="String"></column>
+		<column name="tradeId" type="long"></column>
+		<column name="trade" type="String"></column>
+		<column name="tradeCode" type="String"></column>
+		<column name="gradeId" type="long"></column>
+		<column name="grade" type="String"></column>
+		<column name="gradeCode" type="String"></column>
+		<column name="dateOfBirth" type="Date"></column>
+		<column name="dateOfJoiningOrganization" type="Date"></column>
+		<column name="casteCategoryId" type="long"></column>
+		<column name="casteCategory" type="String"></column>
+		<column name="mobile" type="long"></column>
+		<column name="emailAddress" type="String"></column>
+		<column name="dateOfJoiningUnit" type="Date"></column>
+		<column name="gpfnpsType" type="String"></column>
+		<column name="gpfnpsNumber" type="long"></column>
+		<column name="sectionId" type="long"></column>
+		<column name="section" type="String"></column>
+		<column name="sectionCode" type="String"></column>
+		<column name="loginId" type="String"></column>
+		<column name="idamUser" type="boolean"></column>
+		<column name="emailAccess" type="boolean"></column>
+		<column name="digitalSigning" type="boolean"></column>
+		<column name="eGovAccess" type="boolean"></column>
+		<column name="pisAccess" type="boolean"></column>
+		<column name="state" type="String" />
+		<column name="idamUserCreated" type="boolean"></column>
+		<column name="employeeCreated" type="boolean"></column>
+		<column name="appUserCreated" type="boolean"></column>
+		<column name="postBox" type="String"></column>
+		<column name="rank" type="long"></column>
+		
+		<column name="errorMessage" type="String"></column>
+
+		<column name="bulkOnbordingFileId" type="long"></column>
+		
+		<!-- Order -->
+		<order by="asc">
+			<order-column name="recordNo" />
+		</order>
+
+		<!-- Finder methods -->
+		<finder name="BulkOnbordingFileId" return-type="Collection">
+			<finder-column name="bulkOnbordingFileId" />
+		</finder>
+		
+		<!-- Finder methods -->
+		<finder name="BulkOnbordingFileIdAndStatus" return-type="Collection">
+			<finder-column name="bulkOnbordingFileId" />
+			<finder-column name="status" />
+		</finder>
+		
+		<finder name="Status" return-type="Collection">
+			<finder-column name="status" />
+		</finder>
+		
+		<finder name="UnitId" return-type="Collection">
+			<finder-column name="unitId" />
+		</finder>
+		
+		<finder name="UnitIdAndStatus" return-type="Collection">
+			<finder-column name="unitId" />
+			<finder-column name="status" />
+		</finder>
+		
+		<finder name="UnitIdsAndStatusList" return-type="Collection">
+			<finder-column name="unitId" arrayable-operator="OR" comparator="="/>
+			<finder-column name="status" arrayable-operator="OR" comparator="="/>
+		</finder>
+		
+		<finder name="UnitIdAndState" return-type="Collection">
+			<finder-column name="unitId" />
+			<finder-column name="state" />
+		</finder>
+		
+		<finder name="Unit" return-type="Collection">
+			<finder-column name="unit" />
+		</finder>
+		
+		<finder name="UnitAndStatus" return-type="Collection">
+			<finder-column name="unit" />
+			<finder-column name="status" />
+		</finder>
+		
+		<finder name="UnitAndState" return-type="Collection">
+			<finder-column name="unit" />
+			<finder-column name="state" />
+		</finder>
+		
+		<finder name="G_S" return-type="Collection">
+			<finder-column name="groupId" />
+			<finder-column name="status" />
+		</finder>
+
+		<finder name="GroupId" return-type="Collection">
+			<finder-column name="groupId" />
+		</finder>
+
+		<finder name="UserId" return-type="Collection">
+			<finder-column name="userId" />
+		</finder>
+
+		<finder name="PersonalNo" return-type="Collection">
+			<finder-column name="personalNo" />
+		</finder>
+		<finder name="RecordNo" return-type="Collection">
+			<finder-column name="recordNo" />
+		</finder>
+		<finder name="EmailAddress" return-type="Collection">
+			<finder-column name="emailAddress" />
+		</finder>
+		
+		<finder name="LoginIdAndStatus" return-type="Collection">
+			<finder-column name="loginId" />
+			<finder-column name="status" />
+		</finder>
+		
+		<finder name="LoginIdStatusStateAndIdamUserCreated" return-type="Collection">
+			<finder-column name="loginId" />
+			<finder-column name="status" />
+			<finder-column name="state" />
+			<finder-column name="idamUserCreated" />
+		</finder>
+		
+		<!-- References -->
+
+		<reference entity="AssetEntry"
+			package-path="com.liferay.portlet.asset" />
+		<reference entity="AssetTag"
+			package-path="com.liferay.portlet.asset" />
+		<reference package-path="com.liferay.portlet.asset"
+			entity="AssetLink" />
+
+		<reference entity="WorkflowInstanceLink"
+			package-path="com.liferay.portal" />
+	</entity>
+
+
+	<entity local-service="true" name="BulkOnbordingFile"
+		remote-service="true" uuid="true">
+		<!-- PK fields -->
+
+		<column name="bulkOnbordingFileId" primary="true" type="long" />
+
+		<!-- Group instance -->
+
+		<column name="groupId" type="long" />
+
+		<!-- Audit fields -->
+
+		<column name="companyId" type="long" />
+		<column name="userId" type="long" />
+		<column name="userName" type="String" />
+		<column name="createDate" type="Date" />
+		<column name="modifiedDate" type="Date" />
+
+
+		<!-- Other fields -->
+		<column name="fileEntryId" type="Long"></column>
+
+		<column name="fileName" type="String"></column>
+		<column name="remarks" type="String"></column>
+		<column name="title" type="String"></column>
+		<column name="totalRecords" type="Long"></column>
+		<column name="unitId" type="Long"></column>	
+		<!-- Order -->
+		<order by="asc">
+			<order-column name="bulkOnbordingFileId" />
+		</order>
+
+		<finder name="fileId" return-type="Collection">
+			<finder-column name="bulkOnbordingFileId" />
+
+		</finder>
+		
+		<finder name="UserId" return-type="Collection">
+			<finder-column name="userId" />
+		</finder>
+		<finder name="UnitId" return-type="Collection">
+			<finder-column name="unitId" />
+		</finder>
+		
+
+	</entity>
+</service-builder>

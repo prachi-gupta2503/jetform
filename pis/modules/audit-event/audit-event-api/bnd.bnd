@@ -1,0 +1,10 @@
+Bundle-Name: audit-event-api
+Bundle-SymbolicName: net.ayudh.audit.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	net.ayudh.audit.exception,\
+	net.ayudh.audit.model,\
+	net.ayudh.audit.service,\
+	net.ayudh.audit.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../audit-event-service/service.xml

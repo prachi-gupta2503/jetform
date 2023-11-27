@@ -1,0 +1,10 @@
+Bundle-Name: dashboard-widget-api
+Bundle-SymbolicName: com.adjecti.dashboard.widget.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.adjecti.dashboard.widget.exception,\
+	com.adjecti.dashboard.widget.model,\
+	com.adjecti.dashboard.widget.service,\
+	com.adjecti.dashboard.widget.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../dashboard-widget-service/service.xml

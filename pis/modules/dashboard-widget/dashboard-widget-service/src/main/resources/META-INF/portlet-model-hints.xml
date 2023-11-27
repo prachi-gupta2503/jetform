@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.adjecti.dashboard.widget.model.DashboardWidget">
+		<field name="uuid" type="String" />
+		<field name="dashboardWidgetId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="portletName" type="String" />
+		<field name="thumbnail" type="String" />
+		<field name="added" type="boolean" />
+	</model>
+</model-hints>
